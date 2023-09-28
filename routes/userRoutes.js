@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 
 router.route("/").get((req, res) => {
-  res.status(200).json({ message: "get users" });
+  res.status(200).json({ message: "get all users" });
 });
 
 router.route("/").post((req, res) => {
