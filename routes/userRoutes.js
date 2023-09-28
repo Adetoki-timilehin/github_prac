@@ -6,11 +6,11 @@ router.route("/").get((req, res) => {
 });
 
 router.route("/").post((req, res) => {
-  res.status(200).json({ message: "create user" });
+  res.status(200).json({ message: "create one user" });
 });
 
 router.route("/:id").put((req, res) => {
-  res.status(200).json({ message: `upadte user with id: ${req.params.id}`});
+  res.status(200).json({ message: `upadte user with id: ${req.params.id}` });
 });
 
 router.route("/:id").get((req, res) => {
